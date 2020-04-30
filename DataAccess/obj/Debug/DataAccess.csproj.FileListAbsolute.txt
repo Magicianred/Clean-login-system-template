@@ -12,3 +12,6 @@ D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\Microsoft.AspNet.Ide
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.dll
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.pdb
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.DefaultUserField.resources
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
