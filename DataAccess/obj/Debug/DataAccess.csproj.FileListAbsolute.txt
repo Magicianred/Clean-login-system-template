@@ -1,0 +1,14 @@
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\DataAccess.dll.config
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\DataAccess.dll
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\DataAccess.pdb
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\EntityFramework.dll
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\EntityFramework.xml
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Project\Clean_Login_System_template\DataAccess\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.dll
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clean_Login_System_template", "Clean_Login_System_template\Clean_Login_System_template.csproj", "{897A17BA-424E-483C-845E-BB16ACD77937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{F8D6E450-EB0A-4B85-B957-292BEB4071C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{897A17BA-424E-483C-845E-BB16ACD77937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{897A17BA-424E-483C-845E-BB16ACD77937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{897A17BA-424E-483C-845E-BB16ACD77937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{897A17BA-424E-483C-845E-BB16ACD77937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D6E450-EB0A-4B85-B957-292BEB4071C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D6E450-EB0A-4B85-B957-292BEB4071C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D6E450-EB0A-4B85-B957-292BEB4071C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D6E450-EB0A-4B85-B957-292BEB4071C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CC94612-0145-4CF7-ACE4-88ED98E84AA6}
+	EndGlobalSection
+EndGlobal
