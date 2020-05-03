@@ -82,6 +82,11 @@ namespace Clean_Login_System_template.Models
         [Display(Name = "Date of Birth "), Required]
         public DateTime DateOfBirth { get; set; }
 
+
+        [Display(Name = "Gender"), Required]
+        public string Gender { get; set; }
+
+
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]

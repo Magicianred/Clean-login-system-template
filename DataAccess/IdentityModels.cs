@@ -11,6 +11,7 @@ namespace Clean_Login_System_template.Models
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
     public class ApplicationUser : IdentityUser
     {
+        // Custom properties
         [Display(Name="First Name"), Required]
         public string FirstName { get; set; }
 
@@ -19,6 +20,9 @@ namespace Clean_Login_System_template.Models
 
         [Display(Name = "Date of Birth"), Required]
         public DateTime DateOfBirth { get; set; }
+
+        [Display(Name = "Gender"), Required]
+        public string Gender { get; set; }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

@@ -67,6 +67,10 @@
     <Compile Include="Migrations\202005032123133_updateUserTable.Designer.cs">
       <DependentUpon>202005032123133_updateUserTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005032314493_UpdateUserTable- version 2.cs" />
+    <Compile Include="Migrations\202005032314493_UpdateUserTable- version 2.Designer.cs">
+      <DependentUpon>202005032314493_UpdateUserTable- version 2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -83,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005032123133_updateUserTable.resx">
       <DependentUpon>202005032123133_updateUserTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005032314493_UpdateUserTable- version 2.resx">
+      <DependentUpon>202005032314493_UpdateUserTable- version 2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
