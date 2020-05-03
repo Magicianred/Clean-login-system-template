@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Clean_Login_System_template.Models
@@ -68,6 +69,18 @@ namespace Clean_Login_System_template.Models
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+
+        [Display(Name = "First Name"), Required]
+        public string FirstName { get; set; }
+
+
+        [Display(Name = "Last Name"), Required]
+        public string LastName { get; set; }
+
+
+        [Display(Name = "Date of Birth "), Required]
+        public DateTime DateOfBirth { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
