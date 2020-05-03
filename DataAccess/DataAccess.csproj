@@ -59,6 +59,14 @@
     <Compile Include="Migrations\202004302251215_DefaultUserField.Designer.cs">
       <DependentUpon>202004302251215_DefaultUserField.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005032036010_TwoNewField- inside User Table.cs" />
+    <Compile Include="Migrations\202005032036010_TwoNewField- inside User Table.Designer.cs">
+      <DependentUpon>202005032036010_TwoNewField- inside User Table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005032123133_updateUserTable.cs" />
+    <Compile Include="Migrations\202005032123133_updateUserTable.Designer.cs">
+      <DependentUpon>202005032123133_updateUserTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -69,6 +77,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202004302251215_DefaultUserField.resx">
       <DependentUpon>202004302251215_DefaultUserField.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005032036010_TwoNewField- inside User Table.resx">
+      <DependentUpon>202005032036010_TwoNewField- inside User Table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005032123133_updateUserTable.resx">
+      <DependentUpon>202005032123133_updateUserTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
