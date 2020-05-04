@@ -18,3 +18,4 @@ D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.csproj.Ge
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.TwoNewFieldinsideUserTable.resources
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.updateUserTable.resources
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.UpdateUserTableversion2.resources
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.UpdateRoleTable.resources

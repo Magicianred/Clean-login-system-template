@@ -112,11 +112,12 @@ namespace Clean_Login_System_template
     // Configure the application user Role 
     public class ApplicationRoleManager: RoleManager<ApplicationRole>
     {
-        public ApplicationRoleManager(IRoleStore<ApplicationRole,string>roleStore) : base(roleStore) { }
-        public static ApplicationRoleManager Create(IdentityFactoryOptions<ApplicationRoleManager>options, IOwinContext context)
+        public  ApplicationRoleManager(IRoleStore<ApplicationRole,string>roleStore) : base(roleStore) { }
+
+        public static ApplicationRoleManager Create(IdentityFactoryOptions<ApplicationRoleManager> options,IOwinContext context)
         {
-            var applplicationRoleManager = new ApplicationRoleManager(new RoleStore<ApplicationRole>(context.Get<ApplicationDbContext>()));
-            return applplicationRoleManager;
+            var applicationRoleManager = new ApplicationRoleManager(new RoleStore<ApplicationRole>(context.Get<ApplicationDbContext>()));
+            return applicationRoleManager;
         }
     }
 }

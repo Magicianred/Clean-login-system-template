@@ -26,6 +26,7 @@ namespace Clean_Login_System_template.Models
 
         // end of Custom properties
 
+
          //creating a role
         public class ApplicationRole : IdentityRole
         {
