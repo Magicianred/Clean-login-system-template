@@ -8,7 +8,6 @@ namespace Clean_Login_System_template.Models
 {
     public class RoleViewModel
     {
-        //public RoleViewModel() { }
 
         //constructor
         public RoleViewModel(ApplicationRole role)
@@ -17,6 +16,8 @@ namespace Clean_Login_System_template.Models
             Name = role.Name;
 
         }
+        public RoleViewModel() { }
+
         public string Id { get; set; }
         public string Name { get; set; }
     }

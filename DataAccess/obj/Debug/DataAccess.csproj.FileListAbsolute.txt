@@ -19,3 +19,4 @@ D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migration
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.updateUserTable.resources
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.UpdateUserTableversion2.resources
 D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.UpdateRoleTable.resources
+D:\Project\Clean_Login_System_template\DataAccess\obj\Debug\DataAccess.Migrations.UpdateTableForRole.resources

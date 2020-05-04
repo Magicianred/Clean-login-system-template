@@ -27,12 +27,7 @@ namespace Clean_Login_System_template.Models
         // end of Custom properties
 
 
-         //creating a role
-        public class ApplicationRole : IdentityRole
-        {
-            public ApplicationRole(): base(){ }
-            public ApplicationRole(string roleName): base(roleName){ }
-        };
+      
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
@@ -42,6 +37,13 @@ namespace Clean_Login_System_template.Models
             return userIdentity;
         }
     }
+
+    //creating a role
+    public class ApplicationRole : IdentityRole
+    {
+        public ApplicationRole() : base() { }
+        public ApplicationRole(string roleName) : base(roleName) { }
+    };
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -54,5 +56,7 @@ namespace Clean_Login_System_template.Models
         {
             return new ApplicationDbContext();
         }
+
+       
     }
 }
