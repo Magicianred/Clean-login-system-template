@@ -12,7 +12,7 @@ namespace Clean_Login_System_template.Models
     public class ApplicationUser : IdentityUser
     {
         // Custom properties
-        [Display(Name="First Name"), Required]
+        [Display(Name = "First Name"), Required]
         public string FirstName { get; set; }
 
         [Display(Name = "Last Name"), Required]
@@ -23,6 +23,15 @@ namespace Clean_Login_System_template.Models
 
         [Display(Name = "Gender"), Required]
         public string Gender { get; set; }
+
+        // end of Custom properties
+
+         //creating a role
+        public class ApplicationRole : IdentityRole
+        {
+            public ApplicationRole(): base(){ }
+            public ApplicationRole(string roleName): base(roleName){ }
+        };
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {

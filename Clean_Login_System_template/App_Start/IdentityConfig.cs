@@ -11,6 +11,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using Clean_Login_System_template.Models;
+using static Clean_Login_System_template.Models.ApplicationUser;
 
 namespace Clean_Login_System_template
 {
@@ -104,6 +105,18 @@ namespace Clean_Login_System_template
         public static ApplicationSignInManager Create(IdentityFactoryOptions<ApplicationSignInManager> options, IOwinContext context)
         {
             return new ApplicationSignInManager(context.GetUserManager<ApplicationUserManager>(), context.Authentication);
+        }
+    }
+
+
+    // Configure the application user Role 
+    public class ApplicationRoleManager: RoleManager<ApplicationRole>
+    {
+        public ApplicationRoleManager(IRoleStore<ApplicationRole,string>roleStore) : base(roleStore) { }
+        public static ApplicationRoleManager Create(IdentityFactoryOptions<ApplicationRoleManager>options, IOwinContext context)
+        {
+            var applplicationRoleManager = new ApplicationRoleManager(new RoleStore<ApplicationRole>(context.Get<ApplicationDbContext>()));
+            return applplicationRoleManager;
         }
     }
 }
